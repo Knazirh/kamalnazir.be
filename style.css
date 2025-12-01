@@ -1,0 +1,69 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f7f7f7;
+color: #333;
+}
+
+
+header {
+background: #1e3a5f;
+color: white;
+padding: 20px 0;
+}
+
+
+header h1 {
+margin: 0;
+}
+
+
+nav ul {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+gap: 20px;
+}
+
+
+nav a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+
+.hero {
+background: url('law-office.jpg') center/cover no-repeat;
+color: white;
+text-align: center;
+padding: 100px 20px;
+}
+
+
+.section {
+background: white;
+margin: 30px 0;
+padding: 40px 20px;
+border-radius: 8px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.container {
+width: 90%;
+max-width: 1000px;
+margin: auto;
+}
+
+
+.list li {
+padding: 5px 0;
+}
+
+
+footer {
+background: #1e3a5f;
+color: white;
+}
